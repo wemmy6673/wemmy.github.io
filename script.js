@@ -36,3 +36,59 @@ function toggleModal () {
   body.classList.toggle('modal-active')
 }
 
+
+
+var splide = new Splide( '#main-carousel', {
+  pagination: false,
+} );
+
+splide.mount();
+
+
+// Collects LI elements:
+var thumbnails = document.getElementsByClassName( 'thumbnail' );
+
+for ( var i = 0; i < thumbnails.length; i++ ) {
+  initThumbnail( thumbnails[ i ], i );
+}
+
+// The function to initialize each thumbnail.
+function initThumbnail( thumbnail, index ) {
+  thumbnail.addEventListener( 'click', function () {
+    // move the carousel
+  } );
+}
+
+var splide = new Splide( ... );
+
+...
+
+function initThumbnail( thumbnail, index ) {
+  thumbnail.addEventListener( 'click', function () {
+    splide.go( index );
+  } );
+}
+
+var thumbnails = document.getElementsByClassName( 'thumbnail' );
+var current; // Keeps the current thumbnail
+
+...
+
+splide.on( 'move', function () {
+  if ( current ) {
+    current.classList.remove( 'is-active' );
+  }
+
+  // Splide#index returns the latest slide index:
+  var thumbnail = thumbnails[ splide.index ];
+
+  if ( thumbnail ) {
+    thumbnail.classList.add( 'is-active' );
+    current = thumbnail;
+  }
+} );
+
+splide.on( 'mounted move', function () {
+  ...
+} );
+
