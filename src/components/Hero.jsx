@@ -20,7 +20,7 @@ const Hero = () => {
                  wrapper="span"
                  speed={50}
                 repeat={Infinity}
-                className="font-semibold text-md md:text-4xl text-gradient-to-r from-black to-gray-600"
+                className="font-semibold text-lg md:text-4xl text-gradient-to-r from-black to-gray-600"
                 />
          </div>
          <button className='bg-black text-white rounded-full p-3'>Learn more</button>
