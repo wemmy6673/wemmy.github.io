@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="hidden md:flex md:flex-row justify-between bg-slate-100 p-8">
             <div className="flex flex-row space-x-3 items-center">
-                <small className="text-black">okunolawemzy@gmail.com</small>
+                <a href="mailto:okunolawemzy@gmail.com"><small className="text-black">okunolawemzy@gmail.com</small></a>
                 <button className="bg-white rounded-2xl text-black px-8 py-1">CV</button>
 
             </div>
