@@ -3,12 +3,12 @@ import { BsInfoCircle } from "react-icons/bs";
 const Specs =[{
         id:1,
         title: "Full Website Design",
-        text:"Crafting immersive and engaging full-page website designs that captivate audiences and deliver seamless user experience",
+        text:"Crafting immersive and engaging full-page website designs that,deliver seamless user experience",
     },
     {
         id:2,
         title: "Landing Page Design",
-        text:"Crafting compelling first impressions with innovative landing page designs elevating your online presence effortlessly",
+        text:"Crafting first impressions with landing page designs elevating your online presence effortlessly",
     },
     
     {
@@ -19,7 +19,7 @@ const Specs =[{
       {
         id:4,
         title: "Full website Design",
-        text:"Crafting immersive and engaging full-page website designs that captivate audiences and deliver seamless user experience",
+        text:"Crafting immersive and engaging full-page website designs that captivate audiences",
       }]
 const Description = () =>{
 
