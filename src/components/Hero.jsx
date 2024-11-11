@@ -3,7 +3,7 @@ import Wemi from '../images/wemi.jpeg';
 const Hero = () => {
   return (
     <div
-      className="bg-slate-100 p-16 w-full flex flex-col space-y-6 justify-center items-center"
+      className="bg-slate-100 p-16 w-full flex flex-col space-y-6 justify-center items-center relative"
       style={{ borderBottomLeftRadius: '25%', borderBottomRightRadius: '25%' }}
     >
     
