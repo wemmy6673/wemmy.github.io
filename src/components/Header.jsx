@@ -21,11 +21,11 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="flex flex-col z-20 md:hidden absolute w-full h-[40%]">
-          <div className="bg-white flex flex-col space-y-3 items-center py-4">
-            <small>LinkedIn</small>
-            <small>Instagram</small>
-            <small>Twitter</small>
+        <div className="flex flex-col z-20 md:hidden absolute w-full h-[60%]">
+          <div className="bg-white flex flex-col space-y-3 items-center py-10">
+            <a href="https://www.linkedin.com/in/okunola-oluwawemi-477171222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><small>LinkedIn</small></a>
+            <a href="https://www.instagram.com/ogwemmy"><small>Instagram</small> </a>
+            <a href="https://x.com/wemithewild"><small>Twitter</small></a>
             <a href="mailto:okunolawemzy@gmail.com">
               <small className="text-black">okunolawemzy@gmail.com</small>
             </a>
@@ -46,9 +46,9 @@ const Header = () => {
         </div>
 
         <div className="flex flex-row space-x-3 items-center">
-          <small>LinkedIn</small>
-          <small>Instagram</small>
-          <small>Twitter</small>
+        <a href="https://www.linkedin.com/in/okunola-oluwawemi-477171222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><small>LinkedIn</small></a>
+            <a href="https://www.instagram.com/ogwemmy"><small>Instagram</small> </a>
+            <a href="https://x.com/wemithewild"><small>Twitter</small></a>
         </div>
       </div>
     </>
