@@ -24,7 +24,7 @@ const Specs =[{
 const Description = () =>{
 
     return(
-        <div className='flex flex-col py-20'>
+        <div className='flex flex-col py-20 md:py-16'>
             <h1 className='text-3xl text-center'>What i do</h1>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-10 p-10 md:p-20 md:text-justify'>
                 {Specs.map((spec) => (

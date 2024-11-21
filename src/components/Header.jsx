@@ -37,7 +37,7 @@ const Header = () => {
       )}
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex md:flex-row justify-between bg-slate-100 p-8">
+      <div className="hidden md:flex md:flex-row justify-between md:sticky bg-slate-100 p-8">
         <div className="flex flex-row space-x-3 items-center">
           <a href="mailto:okunolawemzy@gmail.com">
             <small className="text-black">okunolawemzy@gmail.com</small>
