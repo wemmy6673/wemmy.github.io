@@ -1,5 +1,6 @@
 import Wemi from '../images/wemi.jpeg';
 
+
 const Hero = () => {
   return (
     <div
