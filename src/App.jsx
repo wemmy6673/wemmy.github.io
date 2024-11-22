@@ -18,10 +18,12 @@ function App() {
     <Description />
    </ScrollAnimation>
     
-    {/* <Projects /> */}
+    
     <ScrollAnimation animateIn="fadeInUp" delay="">
     <Skills />
    </ScrollAnimation>
+
+   <Projects />
   
     </>
   )
