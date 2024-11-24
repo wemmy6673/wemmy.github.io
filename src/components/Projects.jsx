@@ -1,5 +1,5 @@
-import Cordni from '../images/cordni.png';
-import Zonecam from '../images/logo.png'
+import Cordni from '../images/dashboard.png';
+import Zonecam from '../images/zonecam.png'
 
 const Projects = () => {
 
@@ -11,7 +11,7 @@ const Projects = () => {
 
             <div className='flex flex-col space-y-8 md:flex-row md:space-x-6'>
                 <div className='flex flex-col bg-white space-y-5 rounded-lg md:w-1/4 p-4'>
-                    <img src={Zonecam} width="100" height="100"/>
+                    <img src={Zonecam} width="200" height="200"/>
                     <p>An AI based Web application used to predict the geopolitical zones of Nigerians by mere facial recognition .</p>
                     <a href="https://zonecam.vercel.app"><h1 className="text-blue-500">Click here to preview</h1></a>
 
