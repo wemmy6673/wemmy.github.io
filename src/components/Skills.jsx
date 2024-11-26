@@ -1,6 +1,6 @@
-import Css from '../images/Css.png';
+import Css from '../images/css.png';
 import Html from '../images/html.png';
-import Javascript from '../images/Javascript.png';
+import Javascript from '../images/javascript.png';
 import React from '../images/react.png';
 import Tailwind from '../images/tailwind.png';
 const Skills = () => {
