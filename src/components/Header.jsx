@@ -78,7 +78,7 @@ const Header = () => {
               <small className="text-black">okunolawemzy@gmail.com</small>
               <BsEnvelope />
             </a>
-            <button className="bg-white rounded-2xl text-black px-8 py-1">
+            <button className="bg-black rounded-2xl text-white px-8 py-1">
               CV
             </button>
           </div>
