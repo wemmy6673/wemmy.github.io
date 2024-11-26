@@ -14,7 +14,7 @@ const Skills = () => {
                 <img src={Css} alt='css'/>
 
             </div>
-            <div className="bg-cyan-300 px-3 py-3 rounded-lg flex justify-between items-center ">
+            <div className="bg-cyan-400 px-3 py-3 rounded-lg flex justify-between items-center ">
                 <p className="text-lg text-white">TAILWIND</p>
                 <img src={Tailwind} alt='tailwind'/>
 
