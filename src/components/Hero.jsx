@@ -1,4 +1,5 @@
 import Wemi from '../images/wemi.jpeg';
+import { BsGithub } from "react-icons/bs";
 
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
           <p className='text-lg md:text-3xl font-semibold'>I build user friendly web applications</p>
         </div>
       
-      <button className="bg-black text-white rounded-full p-3">Learn more</button>
+      <a href='https://github.com/wemmy6673'><button className="bg-black text-white items-center hover:bg-white hover:text-black rounded-full p-3 flex flex-row space-x-1 transition duration-300 ease-in-out"><p>Go to Github</p> <BsGithub /></button></a>
     </div>
   );
 };
