@@ -3,23 +3,23 @@ import { BsInfoCircle } from "react-icons/bs";
 const Specs =[{
         id:1,
         title: "Full Website Design",
-        text:"Crafting immersive and engaging full-page website designs that,deliver seamless user experience",
+        text:"Crafting immersive and engaging website designs that deliver seamless user experience following a structured approach to ensure functionality, usability, scalability, and responsiveness.",
     },
     {
         id:2,
         title: "Landing Page Design",
-        text:"Crafting first impressions with landing page designs elevating your online presence effortlessly",
+        text:"Crafting first impressions with landing page designs elevating your online presence effortlessly. A well-designed landing page grabs user attention and communicates the value of your service effectively.",
     },
     
     {
         id:3,
         title: "Mobile Responsiveness",
-        text:"Building user friendly and interactive Websites that work well on all devices and screen sizes",
+        text:"Building user friendly and interactive Websites that work well on all devices and screen sizes. This involves maintaining consistent design and functionality across devices, strengthening brand identity",
     },
       {
         id:4,
-        title: "Full website Design",
-        text:"Crafting immersive and engaging full-page website designs that captivate audiences",
+        title: "User Authentication",
+        text:"Implementing form validation and feedback mechanisms for login and signup pages including token-based authentication to verify user identity",
       }]
 const Description = () =>{
 

@@ -5,11 +5,11 @@ const Projects = () => {
 
     return(
         
-        <div className='flex flex-col space-y-10 px-6 py-10 md:px-20 bg-slate-100'>
+        <div className='flex flex-col space-y-10 px-6 py-20 md:px-20 bg-slate-100'>
 
             <h1 className='text-3xl'>Recent Projects</h1>
 
-            <div className='flex flex-col space-y-8 md:flex-row md:space-x-6'>
+            <div className='flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-6'>
                 <div className='flex flex-col bg-white space-y-5 rounded-lg md:w-1/4 p-4'>
                     <img src={Zonecam} width="200" height="200"/>
                     <p>An AI based Web application used to predict the geopolitical zones of Nigerians by mere facial recognition .</p>
