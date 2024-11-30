@@ -8,8 +8,8 @@ const Skills = () => {
     return(
         <div className="w-full py-8 md:py-20">
         <h1 className='px-20 text-3xl text-center md:text-left'>Stack</h1>
-        <div className="grid grid-cols-2 gap-3 p-8 md:gap-6 md:py-6 md:px-20 md:w-[40%]">
-            <div className="bg-blue-400 px-3 py-3 flex flex-row lg:justify-between md:w-full items-center rounded-lg">
+        <div className="grid grid-cols-2 gap-3 p-8 md:gap-6 md:py-6 md:px-20 md:w-[70%] lg:w-[50%]">
+            <div className="bg-blue-400 px-3 py-3 flex flex-row md:justify-between lg:justify-between items-center rounded-lg">
                 <p className="text-lg text-white">CSS</p>
                 <img src={Css} alt='css'/>
 
