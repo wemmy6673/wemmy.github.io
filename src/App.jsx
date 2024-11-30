@@ -24,7 +24,9 @@ function App() {
     <Skills />
    </ScrollAnimation>
 
-   <Projects />
+   <ScrollAnimation animateIn="fadeIn">
+    <Projects /> 
+   </ScrollAnimation>
    <Footer />
   
     </>
