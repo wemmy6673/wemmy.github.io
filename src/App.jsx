@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import "animate.css/animate.compat.css"
 import ScrollAnimation from 'react-animate-on-scroll';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
    </ScrollAnimation>
 
    <Projects />
+   <Footer />
   
     </>
   )
